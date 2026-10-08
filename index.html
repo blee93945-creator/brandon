@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brandon Lee Ago | 8 Ball Pool Player &amp; Gamer</title>
+<meta name="description" content="Portfolio of Brandon Lee Ago, 8 ball pool player and gamer from Bambang, Nueva Vizcaya.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;800&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <a class="logo" href="#home" aria-label="Brandon Lee Ago, home"><span class="ball" aria-hidden="true">8</span>Brandon Lee Ago</a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  <nav id="menu" class="menu" aria-label="Main">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#services">Services</a><a href="#experience">Journey</a><a href="#contact">Contact</a>
+    <button class="theme" id="theme" aria-label="Switch to light mode">☾</button>
+  </nav>
+</header>
+
+<main id="main">
+<section class="hero" id="home">
+  <div class="orb o1" aria-hidden="true"></div><div class="orb o2" aria-hidden="true"></div>
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="hello">Hi, I'm</p>
+      <h1>Brandon Lee Ago</h1>
+      <p class="role"><span id="typed"></span><span class="caret" aria-hidden="true"></span></p>
+      <p class="lead">Just a boy with a big dream. I play 8 ball pool and games, and I'm learning to build websites. This site is my final project.</p>
+      <div class="btns"><a class="btn primary" href="#projects">View My Work</a><a class="btn ghost" href="#contact">Contact Me</a></div>
+      <ul class="social" aria-label="Social links">
+        <li><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">f</a></li>
+        <li><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">ig</a></li>
+        <li><a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube">▶</a></li>
+        <li><a href="mailto:blee93945@gmail.com" aria-label="Email">@</a></li>
+      </ul>
+    </div>
+    <div class="hero-art">
+      <img class="photo" src="assets/images/profile.jpg" alt="Portrait of Brandon Lee Ago" width="380" height="380" onerror="this.remove()">
+      <svg viewBox="0 0 320 320" role="img" aria-label="Illustration of an 8 ball on a green pool table">
+        <defs><radialGradient id="bg" cx=".35" cy=".3"><stop offset="0" stop-color="#3a3f46"/><stop offset="1" stop-color="#050607"/></radialGradient></defs>
+        <circle cx="160" cy="160" r="150" fill="#0f3a2e" stroke="#7a4a2b" stroke-width="12"/>
+        <circle cx="160" cy="160" r="96" fill="url(#bg)"/>
+        <circle cx="160" cy="146" r="40" fill="#f4f1e8"/>
+        <text x="160" y="162" text-anchor="middle" font-family="Fraunces,Georgia,serif" font-weight="800" font-size="52" fill="#111">8</text>
+        <ellipse cx="128" cy="112" rx="22" ry="12" fill="#fff" opacity=".25" transform="rotate(-30 128 112)"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="about">
+  <div class="wrap about-grid">
+    <div class="reveal about-card glass">
+      <figure class="avatar"><img src="assets/images/profile.jpg" alt="Brandon Lee Ago playing 8 ball pool" width="120" height="120" onerror="this.parentNode.remove()"></figure>
+      <h2>About me</h2>
+      <p>I'm Brandon Lee Ago from Bambang, Nueva Vizcaya. For about five years I've played 8 ball pool, and gaming is where I learned patience, focus and how to stay calm when a match is close.</p>
+      <p>I finished secondary education and I'm now taking my first steps into web design. Everything on this page, from the layout to the code, is something I'm learning as I build it.</p>
+      <dl class="info"><div><dt>Location</dt><dd>Bambang, Nueva Vizcaya</dd></div><div><dt>Education</dt><dd>Secondary Education</dd></div><div><dt>Focus</dt><dd>8 Ball Pool, Gaming, Web Basics</dd></div></dl>
+    </div>
+    <div class="stats reveal">
+      <div class="stat glass"><b data-count="5">0</b><span>Years playing</span></div>
+      <div class="stat glass"><b data-count="1">0</b><span>Website built</span></div>
+      <div class="stat glass"><b data-count="3">0</b><span>Web languages learning</span></div>
+      <div class="stat glass"><b data-count="1">0</b><span>Big dream</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="skills">
+  <div class="wrap">
+    <h2 class="reveal">Skills</h2>
+    <p class="sub reveal">What I'm good at, and what I'm still learning. Bars show where I am today.</p>
+    <div class="skill-grid" id="skillGrid"></div>
+  </div>
+</section>
+
+<section class="sec" id="projects">
+  <div class="wrap">
+    <h2 class="reveal">Projects</h2>
+    <p class="sub reveal">One finished project and a few I'm planning next.</p>
+    <div class="filters reveal" role="group" aria-label="Filter projects">
+      <button class="chip active" data-filter="all">All</button><button class="chip" data-filter="web">Web</button><button class="chip" data-filter="games">Games</button><button class="chip" data-filter="billiards">Billiards</button>
+    </div>
+    <div class="proj-grid" id="projGrid"></div>
+  </div>
+</section>
+
+<section class="sec alt" id="services">
+  <div class="wrap">
+    <h2 class="reveal">Services</h2>
+    <p class="sub reveal">Things I can help with right now.</p>
+    <div class="serv-grid" id="servGrid"></div>
+  </div>
+</section>
+
+<section class="sec" id="experience">
+  <div class="wrap">
+    <h2 class="reveal">My journey</h2>
+    <ol class="timeline" id="timeline"></ol>
+  </div>
+</section>
+
+<section class="sec alt" id="contact">
+  <div class="wrap contact-grid">
+    <div class="reveal">
+      <h2>Let's talk</h2>
+      <p class="sub">Want a game, a practice match, or a simple website? Send me a message.</p>
+      <ul class="contact-list">
+        <li><span>Email</span><a href="mailto:blee93945@gmail.com">blee93945@gmail.com</a></li>
+        <li><span>Phone</span><a href="tel:+639304910343">0930 491 0343</a></li>
+        <li><span>Location</span>Bambang, Nueva Vizcaya, Philippines</li>
+      </ul>
+    </div>
+    <form class="glass form reveal" id="form" novalidate>
+      <label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name"><small class="err" id="e-name"></small>
+      <label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email"><small class="err" id="e-email"></small>
+      <label for="subject">Subject</label><input id="subject" name="subject" type="text"><small class="err" id="e-subject"></small>
+      <label for="message">Message</label><textarea id="message" name="message" rows="5"></textarea><small class="err" id="e-message"></small>
+      <button class="btn primary" type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap foot">
+    <div><strong>Brandon Lee Ago</strong><p>8 ball pool player and gamer from Bambang, learning to build for the web.</p></div>
+    <ul class="social" aria-label="Social links">
+      <li><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">f</a></li>
+      <li><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">ig</a></li>
+      <li><a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube">▶</a></li>
+    </ul>
+    <p class="copy">&copy; <span id="year">2026</span> Brandon Lee Ago. All rights reserved.</p>
+  </div>
+</footer>
+
+<button class="totop" id="totop" aria-label="Back to top">↑</button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
